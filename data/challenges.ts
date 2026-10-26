@@ -20,12 +20,12 @@ export const challenges: Challenge[] = [
     ],
 
     question:
-      'A condition in which a person is not healthy and may experience symptoms such as fever, pain, or weakness.',
+      'An unpleasant physical feeling that can happen because of an injury, illness, or other medical conditions.',
 
-    answer: 'SICK',
+    answer: 'PAIN',
 
     explanation:
-      'Sick is a condition in which a person is not feeling well or has an illness. A sick person may experience symptoms such as fever, headache, cough, pain, or weakness.',
+      'Pain is an unpleasant physical feeling that can happen because of an injury, illness, or other medical conditions. It can affect different parts of the body, such as the head, stomach, back, or joints.',
 
     type: 'short-answer',
   },
@@ -35,14 +35,14 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'Before giving medication to a patient, a nurse _____ check the patient\'s identity and verify the prescribed dosage to prevent medication errors.',
+      'The doctor has examined the X-ray results and found no serious damage. The patient ... need surgery.',
 
     options: [
-      'might',
-      'must',
-      'could',
-      'would',
-      'may',
+      'mustn\'t',
+      'might not',
+      'should',
+      'shall',
+      'ought to',
     ],
 
     answer: 1,
@@ -58,14 +58,14 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'A patient has a high fever, a persistent cough, and difficulty breathing. The nurse thinks these symptoms _____ indicate a serious respiratory infection.',
+      'Before dispensing antibiotics, the pharmacist ... verify the prescription to ensure that the medicine is appropriate.',
 
     options: [
-      'mustn\'t',
-      'have to',
+      'would',
+      'could',
+      'must',
       'might',
-      'will',
-      'can',
+      'shall',
     ],
 
     answer: 2,
@@ -81,17 +81,17 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'During a sterile procedure, nurses _____ touch sterile instruments with unsterile gloves because this can contaminate the equipment and increase the risk of infection.',
+      '... you mind waiting outside while the laboratory technician prepares your test?',
 
     options: [
       'should',
       'can',
       'might',
       'mustn\'t',
-      'will',
+      'Would',
     ],
 
-    answer: 3,
+    answer: 4,
 
     explanation:
       'CORRECT!',
@@ -104,14 +104,14 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'After several weeks of clinical training, the nursing student _____ measure blood pressure accurately and record the results in the patient\'s medical chart.',
+      'The nutritionist advises the patient with high blood pressure that he ... reduce his salt intake.',
 
     options: [
+      'should',
+      'might',
       'can',
-      'mustn\'t',
-      'might not',
-      'will have to',
-      'shouldn\'t',
+      'will',
+      'would',
     ],
 
     answer: 0,
@@ -127,14 +127,14 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'The nurse has explained the discharge instructions to the patient. Tomorrow, she _____ contact the patient to check their recovery progress and answer any questions.',
+      'The laboratory technician is unsure about the test result because the blood sample was damaged. The result ... be inaccurate.',
 
     options: [
-      'could have',
-      'mustn\'t',
-      'will',
-      'might not',
-      'can\'t',
+      'shall',
+      'must',
+      'might',
+      'ought to',
+      'would',
     ],
 
     answer: 2,
@@ -157,14 +157,14 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'A patient with diabetes is scheduled for a blood glucose test before breakfast. The nurse _____ follow the hospital\'s testing protocol and document the result accurately.',
+      'Visitors ... enter the operating room without permission because the area requires strict infection control.',
 
     options: [
-      'may',
-      'must',
-      'could',
+      'couldn\'t',
+      'mustn\'t',
+      'wouldn\'t',
+      'shouldn\'t have',
       'might',
-      'would',
     ],
 
     answer: 1,
@@ -180,17 +180,17 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'A nurse notices that an elderly patient feels dizzy when standing up from the bed. The nurse thinks the patient _____ need assistance when walking to prevent a possible fall.',
+      '... you tell me where it hurts?',
 
     options: [
-      'mustn\'t',
-      'can\'t',
-      'might',
-      'won\'t',
-      'shouldn\'t',
+      'Must',
+      'Shall',
+      'Ought to',
+      'Could',
+      'Will have',
     ],
 
-    answer: 2,
+    answer: 3,
 
     explanation:
       'CORRECT!',
@@ -203,17 +203,17 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'In the hospital\'s isolation room, visitors _____ enter without following the required infection-control precautions, including wearing the appropriate personal protective equipment.',
+      'The hospital has scheduled a vaccination program for tomorrow. The medical team ... begin the program at 8 a.m.',
 
     options: [
-      'can',
-      'may',
-      'should',
-      'mustn\'t',
+      'would',
+      'might not',
       'will',
+      'mustn\'t',
+      'could have',
     ],
 
-    answer: 3,
+    answer: 2,
 
     explanation:
       'CORRECT!',
@@ -226,10 +226,10 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'Before working independently in the emergency department, a nursing student must demonstrate that they _____ perform basic life support correctly under appropriate clinical supervision.',
+      'The dentist explains that the patient has a cavity. Without proper treatment, the condition ... become more serious.',
 
     options: [
-      'can',
+      'could',
       'mustn\'t',
       'might not',
       'will not',
@@ -249,14 +249,14 @@ export const challenges: Challenge[] = [
     layout: 1,
 
     question:
-      'The hospital is introducing a new electronic medical record system next month. All nurses _____ attend a training session so they can use the system safely and accurately.',
+      '... I carry those bags for you?',
 
     options: [
-      'might not',
-      'can\'t',
-      'mustn\'t',
-      'could',
-      'will have to',
+      'Must',
+      'Might',
+      'Should',
+      'Would have',
+      'Shall',
     ],
 
     answer: 4,
@@ -279,19 +279,18 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'The patient has been coughing for three weeks. He ___ have a respiratory infection, but further examination is needed.',
-
+      'The surgeon has not examined the patient yet, so he ... confirm whether an operation is necessary.',
     options: [
-      'must',
-      'should',
-      'might',
-      'will',
+      'mustn\'t',
+      'cannot',
+      'might not',
+      'wouldn\'t',
     ],
 
     answer: 2,
 
     explanation:
-      'Might expresses possibility because further examination is still needed.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -301,19 +300,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'The patient\'s blood pressure is extremely high. The nurse ___ inform the doctor immediately.',
+      'You ... take more than the recommended dose of this medicine',
 
     options: [
-      'might',
+      'should',
       'could',
-      'must',
+      'can',
       'would',
     ],
 
-    answer: 2,
+    answer: 0,
 
     explanation:
-      'Must expresses strong necessity because extremely high blood pressure requires immediate attention.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -323,19 +322,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'The patient is unconscious and is not responding to the nurse. She ___ be asleep.',
+      'The medical laboratory technician ... wear protective gloves when handling blood samples because safety regulations require it.',
 
     options: [
       'must',
-      'can\'t',
-      'should',
-      'may',
+      'might',
+      'could',
+      'would',
     ],
 
-    answer: 1,
+    answer: 0,
 
     explanation:
-      'Can\'t expresses strong impossibility. An unconscious, unresponsive patient cannot simply be assumed to be asleep.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -345,19 +344,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'You have been feeling weak since yesterday. You ___ see a doctor if the symptoms continue.',
+      '... I see the results of my blood test, Doctor?',
 
     options: [
-      'mustn\'t',
-      'should',
-      'can\'t',
-      'wouldn\'t',
+      'Must',
+      'Should',
+      'May',
+      'Ought to',
     ],
 
-    answer: 1,
+    answer: 2,
 
     explanation:
-      'Should is used to give appropriate medical advice or a recommendation.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -367,19 +366,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'The nurse isn\'t in the treatment room. She ___ be checking another patient.',
+      'The dentist advises the child to brush his teeth twice a day. He ... also avoid eating too many sugary snacks.',
 
     options: [
-      'must',
-      'can\'t',
-      'might',
+      'can',
+      'would',
+      'shall',
       'should',
     ],
 
-    answer: 2,
+    answer: 3,
 
     explanation:
-      'Might expresses a possible explanation for where the nurse is.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -389,10 +388,10 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'Patients with diabetes ___ monitor their blood sugar levels regularly to reduce the risk of complications.',
+      'The ambulance driver is approaching a crowded intersection. He ... drive carefully and follow traffic regulations.',
 
     options: [
-      'ought to',
+      'must',
       'might',
       'would',
       'could',
@@ -401,7 +400,7 @@ export const challenges: Challenge[] = [
     answer: 0,
 
     explanation:
-      'Ought to expresses strong advice or recommendation.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -411,19 +410,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'The patient has already received the correct medication, so the symptoms ___ be caused by an allergic reaction.',
+      '... you mind helping me move this wheelchair closer to the bed?',
 
     options: [
-      'mustn\'t',
-      'can\'t',
-      'should',
-      'would',
+      'Must',
+      'Shall',
+      'Might',
+      'Would',
     ],
 
-    answer: 1,
+    answer: 3,
 
     explanation:
-      'Can\'t expresses strong impossibility in this sentence.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -433,19 +432,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'If the patient continues to experience chest pain, the nurse ___ contact the emergency team immediately.',
+      'The hospital has announced a free health screening event for next Monday. The doctors ... examine residents from 8 a.m. to noon.',
 
     options: [
-      'might',
-      'would',
-      'should',
-      'could',
+      'mustn\'t',
+      'would have',
+      'will',
+      'should have',
     ],
 
     answer: 2,
 
     explanation:
-      'Should gives appropriate advice or indicates the recommended action.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -455,19 +454,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'The doctor isn\'t here yet, but he ___ arrive within the next ten minutes.',
+      'The patient has been coughing for several days. He ... consult a doctor if the symptoms continue.',
 
     options: [
-      'must',
-      'can\'t',
-      'might',
       'should',
+      'mustn\'t',
+      'shall',
+      'ought to',
     ],
 
-    answer: 2,
+    answer: 0,
 
     explanation:
-      'Might expresses a possibility about the doctor\'s arrival.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -477,19 +476,19 @@ export const challenges: Challenge[] = [
     layout: 2,
 
     question:
-      'A nurse ___ never administer medication without checking the patient\'s identity and prescription first.',
+      '... you tell me what you usually eat for breakfast?',
 
     options: [
-      'could',
-      'may',
-      'would',
-      'should',
+      'Will',
+      'May',
+      'Would',
+      'Could',
     ],
 
     answer: 3,
 
     explanation:
-      'Should expresses the correct professional rule or expected nursing practice.',
+      'CORRECT!',
 
     type: 'multiple-choice',
   },
@@ -631,7 +630,8 @@ export const challenges: Challenge[] = [
     options: [
       'SURGERY',
       'AFTER',
-      'THE PATIENT',
+      'THE',
+      'PATIENT',
       'REST',
       'SHOULD',
     ],
@@ -656,9 +656,10 @@ export const challenges: Challenge[] = [
     options: [
       'EXPERIENCE',
       'MIGHT',
+      'PATIENT',
       'SOME',
       'DIZZINESS',
-      'THE PATIENT',
+      'THE',
     ],
 
     answer: 'The patient might experience some dizziness',
@@ -681,10 +682,12 @@ export const challenges: Challenge[] = [
     options: [
       'CHECK',
       'SHOULD',
+      'THE',
       'NURSES',
-      'BLOOD PRESSURE',
+      'PRESSURE',
       'REGULARLY',
-      'THE PATIENT\'S',
+      'PATIENT\'S',
+      'BLOOD',
     ],
 
     answer: 'Nurses should check the patient\'s blood pressure regularly',
@@ -707,10 +710,13 @@ export const challenges: Challenge[] = [
     options: [
       'WEAR',
       'YOU',
-      'PROTECTIVE EQUIPMENT',
+      'PROTECTIVE',
       'MUST',
-      'THE TREATMENT ROOM',
+      'EQUIPMENT',
+      'TREATMENT',
+      'THE',
       'IN',
+      'ROOM',
     ],
 
     answer: 'You must wear protective equipment in the treatment room',

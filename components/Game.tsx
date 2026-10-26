@@ -805,7 +805,7 @@ const resetGame =
 
 
       if (
-        answer !== 'recovery'
+        answer !== 'headache'
       ) {
 
         setFakeMessage(
@@ -3995,7 +3995,7 @@ if (gameOver) {
 
                       <p className="text-center text-sm font-bold leading-relaxed text-slate-200">
 
-                        The process of getting better after an illness, injury, or medical treatment. In nursing, nurses support patients during recovery by providing proper care, monitoring their health conditions, and helping them regain their strength.
+                        A pain or discomfort in the head or forehead. It can be caused by stress, lack of sleep, dehydration, or certain illnesses. The pain may be mild or severe and can make it difficult to concentrate or perform daily activities.
 
                       </p>
 

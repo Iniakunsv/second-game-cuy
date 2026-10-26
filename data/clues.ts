@@ -9,7 +9,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'A nurse shows concern and attention to a patient. What word describes this attitude? The first letter of the answer is hidden here.',
-    letter: 'C',
+    letter: 'N',
   },
 
   {
@@ -19,7 +19,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'Before giving treatment, a healthcare worker must show responsibility and attention. Think of a four-letter word related to this action. One letter is hidden here.',
-    letter: 'S',
+    letter: 'A',
   },
 
   {
@@ -29,7 +29,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'A patient needs attention, support, and concern. Think of the English word commonly used for this action. One letter is hidden here.',
-    letter: 'K',
+    letter: 'I',
   },
 
   {
@@ -39,7 +39,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'A healthcare worker gives attention and support to a patient. Think carefully about the word that describes this action. One letter is hidden here.',
-    letter: 'I',
+    letter: 'P',
   },
 
       /*
@@ -55,7 +55,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'You found something hidden around the student desk. Save these two letters. They may be useful later.',
-    letter: 'RC',
+    letter: 'EH',
   },
 
   {
@@ -65,7 +65,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'You found something hidden behind the left curtain. Save these two letters. They may be useful later.',
-    letter: 'OY',
+    letter: 'CA',
   },
 
   {
@@ -75,7 +75,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'You found something hidden behind the right curtain. Save these two letters. They may be useful later.',
-    letter: 'VE',
+    letter: 'HE',
   },
 
   {
@@ -85,7 +85,7 @@ export const clues: Clue[] = [
     title: 'A Hidden Letter',
     text:
       'You found something hidden in the dark decoration. Save these two letters. They may be useful later.',
-    letter: 'ER',
+    letter: 'DA',
   },
 
 ];
